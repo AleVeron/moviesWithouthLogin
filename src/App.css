@@ -1,0 +1,179 @@
+.App{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(255, 102, 0, 0.804),rgb(146, 1, 1))
+}
+
+form{
+    height: 100vh;
+}
+
+header{
+    height: 100%;
+    background-color: black;
+}
+header ul li{
+    font-family: sans-serif;
+}
+
+.loading{
+    height: 100vh;
+}
+
+header ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 15px;
+}
+
+.err{
+    height: 100vh;
+}
+
+.detail{
+    min-height: 100vh;
+}
+.detailTwo{
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 25px;
+    color: white;
+}
+
+.buttonsFilm{
+    position: fixed;
+    bottom:40vh;
+    left: 0;
+    height: 70px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.favoriteBtn{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    font-size: 13px;
+    transition: all ease 0.5s;
+}
+.favoriteBtn:focus{
+    width: 40px;
+    height: 40px;
+    transition: all ease 0.5s;
+}
+
+.noRes{
+    visibility: hidden;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+}
+
+.titles{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   padding-top: 10px;
+   transition: all ease 1s;
+}
+.titles:hover{
+    color: brown;
+    transition: all ease 1s;
+}
+
+.links{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.imgDetail{
+   opacity: 0.7;
+   transition: all ease-in 1s;
+}
+.imgDetail:hover{
+    opacity: 1;
+    transition: all ease-in 1s;
+}
+@media (max-width:600px){
+    .imgDetail{
+        width: 100%;
+        opacity: 0.7;
+    }
+}
+
+.imgFake{
+    display: none;
+}
+
+.favs{
+    min-height: 100vh;
+}
+
+
+.results{
+    min-height: 100vh;
+}
+.idk{
+    height: 100vh;
+}
+nav{
+    width: 100%;
+}
+
+.welcome{
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+a:hover{
+    color: red;
+    transition: all ease 1s;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    height: 10vh;
+}
+
+footer nav ul li a:hover{
+    color: rgb(185, 51, 51);
+}
+
+.card{
+    padding: 0px;
+    box-shadow: -10px 10px 13px black;
+    color: white; 
+    background-color: brown;
+    max-height: 400px;
+}
+
+
+.imgCard{
+    height: 325px;
+    object-fit: cover;
+}
+
+.cardB{
+    background-color: rgba(189, 9, 9, 0.718);
+}
